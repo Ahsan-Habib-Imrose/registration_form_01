@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="calculator">
+        <div class="container">
+            <div class="col-6 middle">
+                <div class="cal-body">
+                    <div class="top">
+                        <h2>Calculator</h2>
+                    </div>
+                    <div class="bottom">
+                        <form action="#" name="datass">
+                            <label class="one" for="1st">First:</label>
+                            <input type="text" name="number1" id="1st" placeholder="Enter 1st numbrer....">
+                            <br>
+                            <label class="two" for="2nd">Second:</label>
+                            <input type="text" name="number2" placeholder="Enter 2nd numbrer....">
+                        </form>
+                        <div class="btn">
+                            <a href="#" class="button" type="submit" onclick="calculates( +datass.number1.value ,+datass.number2.value)">sum </a>
+                            <a href="#" class="button" type="submit" onclick="calculatsub( +datass.number1.value ,+datass.number2.value)">sub </a>
+                            <a href="#" class="button" type="submit" onclick="calculatmul( +datass.number1.value ,+datass.number2.value)">mul </a>
+                            <a href="#" class="button" type="submit" onclick="calculatdiv( +datass.number1.value ,+datass.number2.value)">div </a>
+                        </div>
+                        <div class="out_put">
+                            <ul id="myListe">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="btn">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 middle">
+                 <a href="index.html">Back</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <script src="custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="5000000">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <meta name="keywords" content="class one, html learn">
+    <meta name="description" content="you learn every things about html">
+    <meta name="author" content="mr abdul kuddus">
+    <meta name="copyrigth" content="www.mysite.com">
+    <meta name="revisit" content="5 days">
+
+    <meta property="og:title" content="html learn" />
+    <meta property="og:site_name" content="adfas" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="reg">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="reg-body">
+                        <div class="top">
+                            <h1>Registration form</h1>
+                        </div>
+                        <div class="bottom">
+                            <form action="#" name="datas">
+
+
+                                <label class="fname" for="fname">Your First Name:</label>
+                                <input type="text" name="first" id="fname" placeholder=" First Name">
+                                <label class="lname" for="lname">Your Last Name:</label>
+                                <input type="text" name="lname" id="lname" placeholder=" Last Name">
+                                <br>
+                                <label class="email" for="email">Your Email:</label>
+                                <input class="emailc" type="email" name="email" id="email" placeholder=" Your Email">
+                                <br>
+                                <label class="address" for="address">Your Address:</label>
+                                <input type="text" name="add" id="address" placeholder=" Your Address">
+                                <label class="phone" for="phone">Your Phone Number:</label>
+                                <input type="number" name="phone" id="phone" placeholder=" Your Phone..">
+                                <br>
+                                <div class="gender">
+                                    <label for="gender">Gender:</label>
+
+                                    <input type="text" id="gender" name="male">
+                                </div>
+
+                                <div class="dat">
+                                    <label for="date">Your Date or Birth:</label>
+                                    <br>
+                                    <input class="date" type="date" id="date" name="date" placeholder="date">
+                                </div>
+                                <br>
+                                <label class="pass" for="password">Password</label>
+                                <input type="curren-password" id="password" name="pass" placeholder="password..">
+                                <label class="cpass" for="conpassword">Cornfirm Password</label>
+                                <input type=" new-password" id="conpassword" name="cpass"
+                                    placeholder="Confirm password..">
+                                <br>
+                                <label class="mass" for="message">Your Message:</label>
+                                <br>
+                                <textarea class="sms" name="mass" id="message" cols="5" rows=""></textarea>
+                                <br>
+                                <a class="button" type="submit"
+                                    onclick=" shows (datas.first.value,datas.lname.value,datas.first.lname,datas.email.value,datas.add.value,datas.phone.value,datas.male.value,datas.date.value,datas.pass.value,datas.cpass.value,datas.mass.value)">
+                                    Submit</a>
+                                <!-- <input type="text" name="text" value="" placeholder="Your First Name"> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="show">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="ttext">
+                        <h3>Your Data</h3>
+                        <form action="#" class="one">
+                            <ul id="myList">
+
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="btn">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="calculator.html">Calculator</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="custom.js"></script>
+</body>
+
+</html>
